@@ -15,16 +15,16 @@ function App() {
 
   return (
     <>
-    <div className='flex flex-col justify-between border-4 min-h-screen'>
-      <Navbar/>
       <BrowserRouter>
+    <div className='flex flex-col justify-between min-h-screen dark:bg-gray-900 m-0'>
+      <Navbar/>
       <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/codesnap" element={<CodeSnap/>} />
         </Routes>
-      </BrowserRouter>
       <Footer/>
     </div>
+      </BrowserRouter>
 
     </>
   )

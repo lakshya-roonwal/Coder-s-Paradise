@@ -10,7 +10,7 @@ const ToolsSection = () => {
           <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">Explore the variaty of tools we provide</p>
       </div> 
       <div class="grid gap-8 lg:grid-cols-3">
-        <ToolCard/>
+        <ToolCard url={'/codesnap'} title={'Code Snap shot'} description={'Create Beautiful snap shot of your code so you can share it on different platforms'}/>
       </div>
   </div>
     </section>

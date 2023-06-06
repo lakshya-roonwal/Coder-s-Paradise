@@ -1,14 +1,14 @@
 import React from "react";
-
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="/" className="flex items-center">
+        <Link to="/" className="flex items-center">
           <span className="self-center text-3xl font-bold whitespace-nowrap dark:text-white">
             Coder's Paradise
           </span>
-        </a>
+        </Link>
         <div className="flex md:order-2">
           <div className="relative md:block">
             <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
