@@ -51,6 +51,9 @@ const CodeSnap = () => {
 
   return (
     <>
+    <style>
+      
+    </style>
       <div class="py-8 px-4 mx-auto max-w-screen-lg min-w-screen-lg lg:py-16 lg:px-6 ">
         <SnapController 
           setCodeString={setCodeString}
@@ -84,7 +87,8 @@ const CodeSnap = () => {
               </div>
             </div>
             <div className="flex">
-              <pre className="flex-1 text-gray-400 my-2">
+              <pre className="flex-1 text-gray-400 my-2"
+              >
                 <SyntaxHighlighter
                   language="jsx"
                   style={theme === "dark" ? atomOneDark : docco}

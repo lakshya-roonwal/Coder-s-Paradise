@@ -3,7 +3,7 @@ import React from 'react'
 const SnapController = ({setCodeString,setsnapBgIndex,setPadding,setTheme,handleScreenshotClick,theme}) => {
   return (
     <div
-    className="bg-gray-800 rounded-lg p-4 flex justify-between text-white font-mono text-sm my-3 drop-shadow-xl"
+    className="bg-gray-800 rounded-lg p-4 flex justify-between text-white font-mono text-sm my-3 drop-shadow-xl flex-wrap gap-2"
     style={{ width: "40vw", margin: "1rem auto" }}
   >
     <button
