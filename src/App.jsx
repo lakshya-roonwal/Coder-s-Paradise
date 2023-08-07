@@ -9,6 +9,7 @@ import Footer from './components/Home/Footer'
 import { BrowserRouter,Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
 import CodeSnap from './pages/CodeSnap'
+import UIBlocks from './pages/UIBlocks'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
       <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/codesnap" element={<CodeSnap/>} />
+          <Route path="/uiblocks" element={<UIBlocks/>} />
         </Routes>
       <Footer/>
     </div>

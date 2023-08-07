@@ -11,6 +11,7 @@ const ToolsSection = () => {
       </div> 
       <div className="grid gap-8 lg:grid-cols-3">
         <ToolCard url={'/codesnap'} title={'Code Snap shot'} description={'Create Beautiful snap shot of your code so you can share it on different platforms'}/>
+        <ToolCard url={'/uiblocks'} title={'UI blocks'} description={'Different UI Blocks and utilities for your next front-end project'}/>
       </div>
   </div>
     </section>
