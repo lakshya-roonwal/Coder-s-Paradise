@@ -22,7 +22,7 @@ function App() {
       <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/codesnap" element={<CodeSnap/>} />
-          <Route path="/uiblocks" element={<UIBlocks/>} />
+          <Route path="/uiblocks/*" element={<UIBlocks/>} />
         </Routes>
       <Footer/>
     </div>
